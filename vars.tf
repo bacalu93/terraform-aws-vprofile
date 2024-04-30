@@ -26,26 +26,26 @@ variable "PRIV_KEY_PATH" {
   default = "dovekey"
 }
 
-variable rmquser {
-    default = "rabbit"
+variable "rmquser" {
+  default = "rabbit"
 }
 
-variable rmqpass {
-    default = "Gr33n@pple123456"
+variable "rmqpass" {
+  default = "Gr33n@pple123456"
 }
-variable dbuser {
-    default = "admin"
-}
-
-variable dbpass {
-    default = "admin123"
-}
-variable dbname {
-    default = "accounts"
+variable "dbuser" {
+  default = "admin"
 }
 
-variable VPC_NAME {
-    default = "vprofile-VPC"
+variable "dbpass" {
+  default = "admin123"
+}
+variable "dbname" {
+  default = "accounts"
+}
+
+variable "VPC_NAME" {
+  default = "vprofile-VPC"
 }
 
 variable "ZONE1" {
